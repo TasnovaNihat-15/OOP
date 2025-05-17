@@ -1,9 +1,9 @@
 package practiceProblem_08_b;
 import java.util.Scanner;
 class restaurant{
-    double taxRate = 0.10;
+    double tax = 0.10;
     double calculateTotalBill(double foodPrice) {
-        return foodPrice + (foodPrice * taxRate);
+        return foodPrice + (foodPrice * tax);
     }
     int estimateDeliveryTime() {
         return 40;
@@ -12,7 +12,7 @@ class restaurant{
 class FastFoodRestaurant extends restaurant {
 
     FastFoodRestaurant() {
-        this.taxRate = 0.15;
+        this.tax = 0.15;
     }
     int estimateDeliveryTime() {
         return 20;
