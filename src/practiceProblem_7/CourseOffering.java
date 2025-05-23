@@ -15,7 +15,7 @@ public class CourseOffering {
 
 
     private Student student;
-
+    private Instructor instructor;
     private Course course;
 
 
